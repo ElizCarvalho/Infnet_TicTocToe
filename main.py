@@ -87,6 +87,9 @@ PLAYERS = {
 }
 
 def game():
+  """
+  Main function, where the game happens
+  """
   global BOARD
   turn = "X"
   while not has_finished():
